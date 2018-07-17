@@ -1,0 +1,101 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.navbar-default {
+    /* background-color: #02042d;
+    border-color: #02042d; */
+    border-radius: 0px;
+}
+img.logoplaza
+{
+  margin-top: 5px;
+}
+#content
+{
+  margin-top: 8px;
+}
+.onsale
+{
+  float: right;
+    background: rgba(241,11,39,.5);
+    color: #fff;
+    right: 15px;
+    top: -19px;
+
+}
+.navbar-nav>li>a {
+border-right: #c1021a 1px solid;
+}
+
+.dropdown-menu{
+  /*   background: #02042d; */
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.form-control{
+    border-radius: 0px;
+    height: 50px;
+}
+/*
+.navbar-light .navbar-toggler-icon{
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+*/
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+a.nav-link
+{
+  color: #fff !important;
+}
+.NavTop
+{
+  background: #CF132B;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.BoasVindas
+{
+  float: left;
+  position: absolute;
+  text-decoration: none;
+  list-style: none;
+  line-height: 50px;
+  margin: 0;
+  margin-left: 30px;
+}
+h3.BoasVindas
+{
+  color: #fff;
+}
+.inputBuscaProduto
+{
+  margin-top: 30px;
+  width: 800px;
+  border-right: 0;
+}
+#footer, #footer h3, #footer strong, #footer a
+{
+  background: #F1F1F1;
+  color: #6c6c6c;
+}
+#footer a:hover
+{
+  color: red;
+}
+ul
+{
+  list-style: none;
+}
+.Pagamentos
+{
+  margin-left: -20px;
+}
+
+.subfooter, .subfooter a
+{
+    background-color: #CF132B !important;
+    color: #fff !important;
+}
