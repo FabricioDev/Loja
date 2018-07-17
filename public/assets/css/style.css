@@ -24,7 +24,7 @@ img.logoplaza
     top: -19px;
 
 }
-.navbar-nav>li>a {
+.menutopo .navbar-nav>li>a {
 border-right: #c1021a 1px solid;
 }
 
@@ -54,7 +54,7 @@ a.nav-link
 {
   background: #CF132B;
   color: #fff;
-  margin-bottom: 10px;
+  border: none;
 }
 .BoasVindas
 {
@@ -65,17 +65,62 @@ a.nav-link
   line-height: 50px;
   margin: 0;
   margin-left: 30px;
-}
-h3.BoasVindas
-{
   color: #fff;
+  text-transform: none;
+  font-family: roboto;
+  font-weight: normal;
 }
-.inputBuscaProduto
-{
-  margin-top: 30px;
-  width: 800px;
-  border-right: 0;
+
+.navbar-brand{
+  width: 100%;
 }
+
+img.logo {
+    margin: auto;
+}
+
+.btn-group-justified, .input-group {
+    display: block;
+}
+
+#masthead.navbar {
+    min-height: auto;
+}
+
+.input-group {
+    margin-top: 30px;
+}
+
+input.form-control.inputBuscaProduto {
+    padding: 25px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 1px solid #d9d6d6;
+    float: left;
+    border-radius: 3px;
+    width: 73%;
+}
+
+.input-group button {
+    padding: 11px 20px 0 20px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #cf132b;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+    text-transform: uppercase;
+}
+
+.meucarrinho{
+  margin-top: 40px;
+}
+
+.meucarrinho a {
+    color: #625d5e;
+}
+
 #footer, #footer h3, #footer strong, #footer a
 {
   background: #F1F1F1;
@@ -98,4 +143,8 @@ ul
 {
     background-color: #CF132B !important;
     color: #fff !important;
+}
+
+#footer a{
+  box-shadow: none!important;
 }

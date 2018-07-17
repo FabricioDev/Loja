@@ -14,7 +14,7 @@
     </style>
     <link rel="stylesheet" href="{{url('assets/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{url('assets/css/theme.min.css')}}">
-    <link rel="stylesheet" href="{{url('assets/css/shop.min.css')}}">
+    <link rel="stylesheet" href="{{url('assets/css/shop.css')}}">
 
     <!-- CSS Personalizada -->
     <link rel="stylesheet" href="{{url('assets/css/style.css')}}">
