@@ -153,6 +153,7 @@
     </section>
     <section class="section">
                     <div class="row">
+        <div class="container">
                         <div class="col-md-12">
                             <div class="divider-wrapper">
                                 <div class="visible-xs element-height-30"></div>
@@ -291,7 +292,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>               
+                    </div> 
+                </div>              
             </section>
             <section class="section">
                 <div class="container">

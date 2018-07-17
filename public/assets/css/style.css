@@ -18,7 +18,7 @@ img.logoplaza
 .onsale
 {
   float: right;
-    background: rgba(241,11,39,.5);
+    background: rgb(222, 7, 34);
     color: #fff;
     right: 0px;
     top: -19px;
@@ -89,6 +89,10 @@ img.logo {
 
 .input-group {
     margin-top: 30px;
+}
+
+.open>.dropdown-menu {
+    display: flex;
 }
 
 input.form-control.inputBuscaProduto {

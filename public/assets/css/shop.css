@@ -763,7 +763,7 @@ button.mfp-arrow {
 
 .ajax-loader,
 .ajax-loader::before {
-  border-top-color: rgba(10, 182, 162, 0.92) !important;
+  border-top-color: #CF132B !important;
 }
 
 .table > tbody > tr.warning > td, .table > tbody > tr.warning > th, .table > tbody > tr > td.warning, .table > tbody > tr > th.warning, .table > tfoot > tr.warning > td, .table > tfoot > tr.warning > th, .table > tfoot > tr > td.warning, .table > tfoot > tr > th.warning, .table > thead > tr.warning > td, .table > thead > tr.warning > th, .table > thead > tr > td.warning, .table > thead > tr > th.warning {
@@ -931,24 +931,24 @@ pre {
 
 .btn-link {
   background: none;
-  color: rgba(10, 182, 162, 0.92);
+  color: #CF132B;
   text-decoration: none;
-  box-shadow: 0px 0px 0px 1px rgba(10, 182, 162, 0.92) inset;
+  box-shadow: 0px 0px 0px 1px #CF132B inset;
 }
 .btn-link:hover, .btn-link:active, .btn-link:focus, .btn-link:active:focus, .btn-link:active:hover {
   text-decoration: none;
-  background-color: rgba(10, 182, 162, 0.92);
+  background-color: #CF132B;
   color: #ffffff;
-  box-shadow: 0px 0px 0px 1px rgba(10, 182, 162, 0.92) inset;
+  box-shadow: 0px 0px 0px 1px #CF132B inset;
 }
 
 .open .dropdown-toggle.btn-primary {
-  background-color: rgba(10, 182, 162, 0.92);
+  background-color: #CF132B;
   color: #ffffff;
 }
 
 .btn-group .dropdown-menu {
-  background-color: rgba(10, 182, 162, 0.92);
+  background-color: #CF132B;
 }
 .btn-group .dropdown-menu > li > a {
   color: #ffffff;
@@ -962,7 +962,7 @@ pre {
 }
 
 .label-primary {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   color: #ffffff;
 }
 .label-primary a {
@@ -1090,7 +1090,7 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 input[type="button"] {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   color: #ffffff;
 }
 
@@ -1635,7 +1635,7 @@ input[type="button"] {
   }
 }
 .pagination > li > a, .pagination > li > span {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   color: #ffffff;
 }
 
@@ -1645,7 +1645,7 @@ input[type="button"] {
 }
 
 .pagination > li:last-child > a, .pagination > li:last-child > span {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   color: #ffffff;
   border-bottom-right-radius: 0px;
   border-top-right-radius: 0px;
@@ -1668,7 +1668,7 @@ input[type="button"] {
 }
 
 .pagination > .disabled > span, .pagination > .disabled span:hover, .pagination > .disabled > a, .pagination > .disabled a:hover {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   color: #ffffff;
 }
 .pagination > .disabled > span i, .pagination > .disabled span:hover i, .pagination > .disabled > a i, .pagination > .disabled a:hover i {
@@ -1680,7 +1680,7 @@ input[type="button"] {
 }
 
 .pager > li > a {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   color: #ffffff;
 }
 .pager > li > a i {
@@ -1725,7 +1725,7 @@ input[type="button"] {
 }
 
 .progress-bar-primary {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   box-shadow: none;
 }
 .progress-bar-primary span {
@@ -1733,7 +1733,7 @@ input[type="button"] {
 }
 
 .progress-bar-primary.progress-striped .progress-bar, .progress-striped .progress-bar-primary {
-  background-color: rgba(10, 182, 162, 0.92);
+  background-color: #CF132B;
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
   background-size: 40px 40px;
 }
@@ -1813,7 +1813,7 @@ input[type="button"] {
 }
 
 .panel-primary .panel-heading {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
 }
 .panel-primary .panel-heading a, .panel-primary .panel-heading .panel-title {
   color: #ffffff;
@@ -1839,7 +1839,7 @@ input[type="button"] {
 }
 
 .portfolio-title {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   color: #ffffff;
 }
 
@@ -1949,7 +1949,7 @@ input[type="button"] {
 }
 
 .pricing-price {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   color: #ffffff;
 }
 
@@ -1961,11 +1961,11 @@ input[type="button"] {
   border-bottom-color: rgba(0, 0, 0, 0.08);
 }
 .pricing-item-list li strong {
-  background-color: rgba(10, 182, 162, 0.92);
+  background-color: #CF132B;
   color: #ffffff;
 }
 .pricing-item-list li.featured:before {
-  border-color: rgba(10, 182, 162, 0.92);
+  border-color: #CF132B;
 }
 
 .col-border-top {
@@ -1985,7 +1985,7 @@ input[type="button"] {
 }
 
 .tag-list span {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   color: #ffffff;
 }
 
@@ -1999,7 +1999,7 @@ input[type="button"] {
 }
 
 .mejs-audio {
-  background-color: rgba(10, 182, 162, 0.92);
+  background-color: #CF132B;
   color: #ffffff;
 }
 
@@ -2072,7 +2072,7 @@ input[type="button"] {
 }
 
 .cd-timeline-img {
-  background-color: rgba(10, 182, 162, 0.92);
+  background-color: #CF132B;
 }
 .cd-timeline-img i {
   color: #ffffff;
@@ -2133,7 +2133,7 @@ input[type="button"] {
 }
 
 .gf_progressbar_percentage {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   color: #ffffff;
 }
 
@@ -2425,7 +2425,7 @@ input[type="button"] {
 }
 
 .button {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   color: #ffffff;
 }
 .button:hover {
@@ -2445,7 +2445,7 @@ input[type="button"] {
 }
 
 .onsale {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   color: #ffffff;
 }
 
@@ -2457,7 +2457,7 @@ input[type="button"] {
   color: #ffffff;
 }
 .page-numbers li {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
 }
 .page-numbers .current, .page-numbers li a:hover {
   background: rgba(9, 158, 140, 0.92);
@@ -2465,7 +2465,7 @@ input[type="button"] {
 }
 
 #reviews input[type="submit"] {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   color: #ffffff;
 }
 
@@ -2544,7 +2544,7 @@ input[type="button"] {
 }
 
 .mini-cart-count {
-  background-color: rgba(10, 182, 162, 0.92);
+  background-color: #CF132B;
   color: #ffffff;
 }
 
@@ -2562,7 +2562,7 @@ input[type="button"] {
 }
 
 .mini-cart-overview .buttons a:last-child {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   color: #ffffff;
 }
 
@@ -2658,11 +2658,11 @@ textarea.woocommerce-invalid {
 }
 
 .bbp-forums-list li {
-  border-left-color: rgba(10, 182, 162, 0.92);
+  border-left-color: #CF132B;
 }
 
 .bbp-topic-freshness-author:after {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
 }
 
 .bbp-topic-permalink i {
@@ -2674,7 +2674,7 @@ textarea.woocommerce-invalid {
 }
 
 .panel-bbpress .panel-heading {
-  border-color: rgba(10, 182, 162, 0.92);
+  border-color: #CF132B;
 }
 
 .panel-bbpress .panel-body {
@@ -2728,7 +2728,7 @@ textarea.woocommerce-invalid {
 }
 
 .bbp-topic-tags a {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   color: #ffffff;
 }
 .bbp-topic-tags a:hover {
@@ -2743,7 +2743,7 @@ textarea.woocommerce-invalid {
 }
 
 .post-count {
-  background: rgba(10, 182, 162, 0.92);
+  background: #CF132B;
   color: #ffffff;
 }
 
