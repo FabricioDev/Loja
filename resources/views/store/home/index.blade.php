@@ -42,7 +42,6 @@
       </div>
     </section>
     <section class="section">
-      <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="divider-wrapper">
@@ -65,7 +64,58 @@
                           <img alt="skirt4-1" data-src="holder.js/262x334?random=yes&text=Essa é uma outra imagem do Produto">
                         </div>
                         <div class="product-image-overlay">
-                          <h4>Nome do produto</h4>
+                          <h4>Produto 01</h4>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="product col-md-3">
+                    <a href="#" class="btn btn-buy">
+                      <span class="onsale">- 30%</span>
+                      <div class="product-image">
+                        <div class="product-image-front">
+                          <img alt="skirt4-1" height="893" data-src="holder.js/262x334?random=yes&text=Aqui vai a imagem do produto" width="700">
+                        </div>
+                        <div class="product-image-back">
+                          <img alt="skirt4-1" data-src="holder.js/262x334?random=yes&text=Essa é uma outra imagem do Produto">
+                        </div>
+                        <div class="product-image-overlay">
+                          <h4>Produto 02</h4>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="product col-md-3">
+                    <a href="#" class="btn btn-buy">
+                      <span class="onsale">- 30%</span>
+                      <div class="product-image">
+                        <div class="product-image-front">
+                          <img alt="skirt4-1" height="893" data-src="holder.js/262x334?random=yes&text=Aqui vai a imagem do produto" width="700">
+                        </div>
+                        <div class="product-image-back">
+                          <img alt="skirt4-1" data-src="holder.js/262x334?random=yes&text=Essa é uma outra imagem do Produto">
+                        </div>
+                        <div class="product-image-overlay">
+                          <h4>Produto 03</h4>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="product col-md-3">
+                    <a href="#" class="btn btn-buy">
+                      <span class="onsale">- 30%</span>
+                      <div class="product-image">
+                        <div class="product-image-front">
+                          <img alt="skirt4-1" height="893" data-src="holder.js/262x334?random=yes&text=Aqui vai a imagem do produto" width="700">
+                        </div>
+                        <div class="product-image-back">
+                          <img alt="skirt4-1" data-src="holder.js/262x334?random=yes&text=Essa é uma outra imagem do Produto">
+                        </div>
+                        <div class="product-image-overlay">
+                          <h4>Produto 04</h4>
                         </div>
                       </div>
                     </a>
@@ -76,7 +126,6 @@
             </div>
           </div>
         </div>
-      </div>
     </section>
     <section class="section">
       <div class="container">
@@ -103,7 +152,6 @@
       </div>
     </section>
     <section class="section">
-                <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="divider-wrapper">
@@ -243,8 +291,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </div>               
             </section>
             <section class="section">
                 <div class="container">
