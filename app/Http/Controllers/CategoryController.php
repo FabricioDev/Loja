@@ -3,34 +3,35 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Categoria;
+use App\Models\Category;
 use Illuminate\Support\Facedes\Redirect;
-use App\Http\Requests\CategoriaFormRequest;
+use App\Http\Requests\CategoryFormRequest;
 use DB;
 
-class CategoriaController extends Controller
+class CategoryController extends Controller
 {
-  public function __construct()
-  {
-
+  public function __construct(){
+    //
   }
 
   public function index(Request $request)
   {
+    
       if($request)
       {
         $query=trim($request->get('searchText'));
-        $categorias=DB::table('categoria')
-              ->where('nome','LIKE', '%'.$query.'%')
-              ->where('condicao', '=', '1')
+        $categories=DB::table('categories')
+              ->where('name','LIKE', '%'.$query.'%')
+              ->where('condition', '=', '1')
               ->orderBy('id', 'desc')
               ->paginate(7);
               return view('estoque.categoria.index',[
-                "categorias"=>$categorias,
+                "categories"=>$categories,
                 "searchText"=>$query
               ]);
       }
   }
+  /*
   public function create()
   {
       return view("estoque.categoria.create");
@@ -46,16 +47,16 @@ class CategoriaController extends Controller
   }
   public function show($id)
   {
-      return view("estoque.categoria.show", ["categoria"=>Categoria::findOrFail($id)]);
+      return view("estoque.categoria.show", ["categoria"=>Category::findOrFail($id)]);
   }
   public function edit($id)
   {
     return view("estoque.categoria.edit", [
-      "categoria"=>Categoria::findOrFail($id)]);
+      "categoria"=>Category::findOrFail($id)]);
   }
   public function update(CategoriaFormRequest $request, $id)
   {
-      $categoria=Categoria::findOrFail($id);
+      $categoria=Category::findOrFail($id);
       $categoria->nome=$request->get('nome');
       $categoria->descricao=$request->get('descricao');
       $categoria->update();
@@ -63,9 +64,9 @@ class CategoriaController extends Controller
   }
   public function destroy($id)
   {
-      $categoria=Categoria::findOrFail($id);
+      $categoria=Category::findOrFail($id);
       $categoria->condicao='0';
       $categoria->update();
       return Redirect::to('estoque/categoria');
-  }
+  }*/
 }
