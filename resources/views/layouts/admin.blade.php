@@ -16,7 +16,9 @@
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="{{asset('css/_all-skins.min.css')}}">
     <link rel="apple-touch-icon" href="{{asset('img/apple-touch-icon.png')}}">
-    <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{url('assets/images/logoplaza.png')}}">
 
   </head>
   <body class="hold-transition skin-blue sidebar-mini">
