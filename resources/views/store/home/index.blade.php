@@ -17,12 +17,12 @@
           <div class="col-md-3">
             <div class="figure element-top-30 element-bottom-0 image-effect-scroll-left os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
               <a class="figure-image" href="#" target="_self">
-                <img alt="kids-sales" src="holder.js/264x288?random=yes&text=Produto em Destaque 2">
+                <img alt="kids-sales" src="holder.js/800x800?random=yes&text=Produto em Destaque 2">
               </a>
             </div>
             <div class="figure element-top-30 element-bottom-20 image-effect-scroll-left os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s">
               <a class="figure-image" href="#" target="_self">
-                <img alt="mans-sales" src="holder.js/264x186?random=yes&text=Produto em Destaque 3">
+                <img alt="mans-sales" src="holder.js/800x800?random=yes&text=Produto em Destaque 3">
               </a>
             </div>
           </div>
@@ -58,10 +58,10 @@
                       <span class="onsale">- 30%</span>
                       <div class="product-image">
                         <div class="product-image-front">
-                          <img alt="skirt4-1" height="893" data-src="holder.js/262x334?random=yes&text=Aqui vai a imagem do produto" width="700">
+                          <img alt="skirt4-1" height="893" data-src="holder.js/800x800?random=yes&text=Aqui vai a imagem do produto" width="700">
                         </div>
                         <div class="product-image-back">
-                          <img alt="skirt4-1" data-src="holder.js/262x334?random=yes&text=Essa é uma outra imagem do Produto">
+                          <img alt="skirt4-1" data-src="holder.js/800x800?random=yes&text=Essa é uma outra imagem do Produto">
                         </div>
                         <div class="product-image-overlay">
                           <h4>Produto 01</h4>
@@ -75,10 +75,10 @@
                       <span class="onsale">- 30%</span>
                       <div class="product-image">
                         <div class="product-image-front">
-                          <img alt="skirt4-1" height="893" data-src="holder.js/262x334?random=yes&text=Aqui vai a imagem do produto" width="700">
+                          <img alt="skirt4-1" height="893" data-src="holder.js/800x800?random=yes&text=Aqui vai a imagem do produto" width="700">
                         </div>
                         <div class="product-image-back">
-                          <img alt="skirt4-1" data-src="holder.js/262x334?random=yes&text=Essa é uma outra imagem do Produto">
+                          <img alt="skirt4-1" data-src="holder.js/800x800?random=yes&text=Essa é uma outra imagem do Produto">
                         </div>
                         <div class="product-image-overlay">
                           <h4>Produto 02</h4>
@@ -92,10 +92,10 @@
                       <span class="onsale">- 30%</span>
                       <div class="product-image">
                         <div class="product-image-front">
-                          <img alt="skirt4-1" height="893" data-src="holder.js/262x334?random=yes&text=Aqui vai a imagem do produto" width="700">
+                          <img alt="skirt4-1" height="893" data-src="holder.js/800x800?random=yes&text=Aqui vai a imagem do produto" width="700">
                         </div>
                         <div class="product-image-back">
-                          <img alt="skirt4-1" data-src="holder.js/262x334?random=yes&text=Essa é uma outra imagem do Produto">
+                          <img alt="skirt4-1" data-src="holder.js/800x800?random=yes&text=Essa é uma outra imagem do Produto">
                         </div>
                         <div class="product-image-overlay">
                           <h4>Produto 03</h4>
@@ -109,10 +109,10 @@
                       <span class="onsale">- 30%</span>
                       <div class="product-image">
                         <div class="product-image-front">
-                          <img alt="skirt4-1" height="893" data-src="holder.js/262x334?random=yes&text=Aqui vai a imagem do produto" width="700">
+                          <img alt="skirt4-1" height="893" data-src="holder.js/800x800?random=yes&text=Aqui vai a imagem do produto" width="700">
                         </div>
                         <div class="product-image-back">
-                          <img alt="skirt4-1" data-src="holder.js/262x334?random=yes&text=Essa é uma outra imagem do Produto">
+                          <img alt="skirt4-1" data-src="holder.js/800x800?random=yes&text=Essa é uma outra imagem do Produto">
                         </div>
                         <div class="product-image-overlay">
                           <h4>Produto 04</h4>
@@ -168,10 +168,10 @@
 
                                         <div class="product-image">
                                             <div class="product-image-front">
-                                                <img alt="skirt1-1" height="893" data-src="holder.js/203x259?random=yes&text=Foto Produto Frente" width="700">
+                                                <img alt="skirt1-1" height="893" data-src="holder.js/800x800?random=yes&text=Foto Produto Frente" width="700">
                                             </div>
 
-                                            <div class="product-image-back"><img alt="skirt1-2" data-src="holder.js/203x259?random=yes&text=Foto Produto 2"></div>
+                                            <div class="product-image-back"><img alt="skirt1-2" data-src="holder.js/800x800?random=yes&text=Foto Produto 2"></div>
 
                                             <div class="product-image-overlay">
                                                 <h4>Detalhe do Produto</h4>
@@ -198,8 +198,8 @@
                                         <li class="product col-md-2-4">
                                             <a href="#"> <span class="onsale">- 20%</span>
                                                 <div class="product-image">
-                                                    <div class="product-image-front"> <img alt="bag1-1" height="893" data-src="holder.js/203x259?random=yes&text=Foto Produto Frente" width="700"> </div>
-                                                    <div class="product-image-back"> <img alt="bag1-2" src="holder.js/203x259?random=yes&text=Foto Produto 2"> </div>
+                                                    <div class="product-image-front"> <img alt="bag1-1" height="893" data-src="holder.js/800x800?random=yes&text=Foto Produto Frente" width="700"> </div>
+                                                    <div class="product-image-back"> <img alt="bag1-2" src="holder.js/800x800?random=yes&text=Foto Produto 2"> </div>
                                                     <div class="product-image-overlay">
                                                         <h4>Detalhe do Produto</h4>
                                                     </div>
@@ -222,8 +222,8 @@
                                         <li class="product col-md-2-4">
                                             <a href="#"> <span class="onsale">- 25%</span>
                                                 <div class="product-image">
-                                                    <div class="product-image-front"> <img alt="bag3-1" height="893" data-src="holder.js/203x259?random=yes&text=Foto Produto Frente" width="700"> </div>
-                                                    <div class="product-image-back"> <img alt="bag3-2" src="holder.js/203x259?random=yes&text=Foto Produto 2"> </div>
+                                                    <div class="product-image-front"> <img alt="bag3-1" height="893" data-src="holder.js/800x800?random=yes&text=Foto Produto Frente" width="700"> </div>
+                                                    <div class="product-image-back"> <img alt="bag3-2" src="holder.js/800x800?random=yes&text=Foto Produto 2"> </div>
                                                     <div class="product-image-overlay">
                                                         <h4>Detalhe do Produto</h4>
                                                     </div>
@@ -244,8 +244,8 @@
                                         <li class="product col-md-2-4">
                                             <a href="#"> <span class="onsale">- 50%</span>
                                                 <div class="product-image">
-                                                    <div class="product-image-front"> <img alt="bag4-1" height="893" data-src="holder.js/203x259?random=yes&text=Foto Produto Frente" width="700"> </div>
-                                                    <div class="product-image-back"> <img alt="bag4-2" data-src="holder.js/203x259?random=yes&text=Foto Produto 2"> </div>
+                                                    <div class="product-image-front"> <img alt="bag4-1" height="893" data-src="holder.js/800x800?random=yes&text=Foto Produto Frente" width="700"> </div>
+                                                    <div class="product-image-back"> <img alt="bag4-2" data-src="holder.js/800x800?random=yes&text=Foto Produto 2"> </div>
                                                     <div class="product-image-overlay">
                                                         <h4>Detalhe do Produto</h4>
                                                     </div>
@@ -266,11 +266,11 @@
 
                                     <div class="product-image">
                                         <div class="product-image-front">
-                                            <img alt="dress2-1" height="893" data-src="holder.js/203x259?random=yes&text=Foto Produto Frente" width="700">
+                                            <img alt="dress2-1" height="893" data-src="holder.js/800x800?random=yes&text=Foto Produto Frente" width="700">
                                         </div>
 
                                         <div class="product-image-back">
-                                            <img alt="dress1-1" data-src="holder.js/203x259?random=yes&text=Foto Produto 2">
+                                            <img alt="dress1-1" data-src="holder.js/800x800?random=yes&text=Foto Produto 2">
                                         </div>
 
                                         <div class="product-image-overlay">
@@ -301,21 +301,21 @@
                         <div class="col-md-4 text-center">
                             <div class="figure element-top-20 element-bottom-20 image-effect-zoom-in os-animation" data-os-animation="fadeIn" data-os-animation-delay="0s">
                                 <a class="figure-image" href="#" target="_self">
-                                  <img alt="" data-src="holder.js/360x300?random=yes&text=Produto Destaque 01">
+                                  <img alt="" data-src="holder.js/800x800?random=yes&text=Produto Destaque 01">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-4 text-center">
                             <div class="figure element-top-20 element-bottom-20 image-effect-zoom-in os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
                                 <a class="figure-image" href="#" target="_self">
-                                  <img alt="banner-small-2" data-src="holder.js/360x300?random=yes&text=Produto Destaque 02">
+                                  <img alt="banner-small-2" data-src="holder.js/800x800?random=yes&text=Produto Destaque 02">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-4 text-center">
                             <div class="figure element-top-20 element-bottom-20 image-effect-zoom-in os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s">
                                 <a class="figure-image" href="#" target="_self">
-                                  <img alt="banner-small-3" data-src="holder.js/360x300?random=yes&text=Produto Destaque 03">
+                                  <img alt="banner-small-3" data-src="holder.js/800x800?random=yes&text=Produto Destaque 03">
                                 </a>
                             </div>
                         </div>

@@ -61,31 +61,31 @@
 </nav>
 <div class="container">
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-3 col-sm-3">
       <a class="navbar-brand" href="{{route('home')}}">
-        <img src="{{url('assets/images/logoplaza.png')}}" style="width:31%; " alt="Plazza Pet" class="logo">
+        <img src="{{url('assets/images/logoplaza.png')}}" alt="Plazza Pet" class="logo">
       </a>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 col-sm-8">
       <div class="input-group">
           <input type="text" class="form-control inputBuscaProduto" placeholder="O que você procura em nossa loja?">
           <button type="submit"><p>Buscar</p></button>
       </div>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-3 col-sm-1 ">
 
    <div class="meucarrinho" id="bs-example-navbar-collapse-1">
       <ul class="">
         <li>
           <a href="{{route('cart')}}">
             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-            Meu Carrinho
+            <span class="display-none">Meu Carrinho</span>
             <span class="badge">0</span>
           </a>
         </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        <li class="dropdown display-none">
+          <a href="#" class="dropdown-toggle display-none" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
               Fabrício Damasceno<span class="caret"></span>
           </a>
           <ul class="dropdown-menu">

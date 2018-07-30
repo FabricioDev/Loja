@@ -1,27 +1,31 @@
 body{
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 .navbar-default {
-    /* background-color: #02042d;
-    border-color: #02042d; */
-    border-radius: 0px;
+		/* background-color: #02042d;
+		border-color: #02042d; */
+		border-radius: 0px;
+}
+
+img.logo{
+	width: 31%!important;
 }
 img.logoplaza
 {
-  margin-top: 5px;
+	margin-top: 5px;
 }
 #content
 {
-  margin-top: 8px;
+	margin-top: 8px;
 }
 .onsale
 {
-  float: right;
-    background: rgb(222, 7, 34);
-    color: #fff;
-    right: 0px;
-    top: -19px;
+	float: right;
+		background: rgb(222, 7, 34);
+		color: #fff;
+		right: 0px;
+		top: -19px;
 
 }
 .menutopo .navbar-nav>li>a {
@@ -29,14 +33,14 @@ border-right: #c1021a 1px solid;
 }
 
 .dropdown-menu{
-  /*   background: #02042d; */
-    border-radius: 0px;
-    box-shadow: none;
+	/*   background: #02042d; */
+		border-radius: 0px;
+		box-shadow: none;
 }
 
 .form-control{
-    border-radius: 0px;
-    height: 50px;
+		border-radius: 0px;
+		height: 50px;
 }
 /*
 .navbar-light .navbar-toggler-icon{
@@ -44,111 +48,151 @@ border-right: #c1021a 1px solid;
 }
 */
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+		background-color: #fff;
 }
 a.nav-link
 {
-  color: #fff !important;
+	color: #fff !important;
 }
 .NavTop
 {
-  background: #CF132B;
-  color: #fff;
-  border: none;
+	background: #CF132B;
+	color: #fff;
+	border: none;
 }
 .BoasVindas
 {
-  float: left;
-  position: absolute;
-  text-decoration: none;
-  list-style: none;
-  line-height: 50px;
-  margin: 0;
-  margin-left: 30px;
-  color: #fff;
-  text-transform: none;
-  font-family: roboto;
-  font-weight: normal;
+	float: left;
+	position: absolute;
+	text-decoration: none;
+	list-style: none;
+	line-height: 50px;
+	margin: 0;
+	margin-left: 30px;
+	color: #fff;
+	text-transform: none;
+	font-family: roboto;
+	font-weight: normal;
 }
 
 .navbar-brand{
-  width: 100%;
+	width: 100%;
 }
 
 img.logo {
-    margin: auto;
+		margin: auto;
 }
 
 .btn-group-justified, .input-group {
-    display: block;
+		display: block;
 }
 
 #masthead.navbar {
-    min-height: auto;
+		min-height: auto;
 }
 
 .input-group {
-    margin-top: 30px;
+		margin-top: 30px;
 }
 
 .open>.dropdown-menu {
-    display: flex;
+		display: flex;
 }
 
 input.form-control.inputBuscaProduto {
-    padding: 25px;
-    margin-top: 8px;
-    font-size: 17px;
-    border: 1px solid #d9d6d6;
-    float: left;
-    border-radius: 3px;
-    width: 73%;
+		padding: 25px;
+		margin-top: 8px;
+		font-size: 17px;
+		border: 1px solid #d9d6d6;
+		float: left;
+		border-radius: 3px;
+		width: 73%;
 }
 
 .input-group button {
-    padding: 11px 20px 0 20px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #cf132b;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-    border-radius: 0 3px 3px 0;
-    text-transform: uppercase;
+		padding: 11px 20px 0 20px;
+		margin-top: 8px;
+		margin-right: 16px;
+		background: #cf132b;
+		font-size: 17px;
+		border: none;
+		cursor: pointer;
+		border-radius: 0 3px 3px 0;
+		text-transform: uppercase;
 }
 
 .meucarrinho{
-  margin-top: 40px;
+	margin-top: 40px;
 }
 
 .meucarrinho a {
-    color: #625d5e;
+		color: #625d5e;
 }
 
 #footer, #footer h3, #footer strong, #footer a
 {
-  background: #F1F1F1;
-  color: #6c6c6c;
+	background: #F1F1F1;
+	color: #6c6c6c;
 }
 #footer a:hover
 {
-  color: red;
+	color: red;
 }
 ul
 {
-  list-style: none;
+	list-style: none;
 }
 .Pagamentos
 {
-  margin-left: -20px;
+	margin-left: -20px;
 }
 
 .subfooter, .subfooter a
 {
-    background-color: #CF132B !important;
-    color: #fff !important;
+		background-color: #CF132B !important;
+		color: #fff !important;
 }
 
 #footer a{
-  box-shadow: none!important;
+	box-shadow: none!important;
 }
+
+
+@media (min-width: 992px){
+	.display-none{
+		display: inline!important;
+	}
+}
+
+
+@media (min-width: 576px)  {
+		/* For mobile phones: */
+		img.logo{
+			width: 80%;
+		}
+
+		.display-none{
+			display: none;
+		}
+
+		.navbar-toggle{
+			margin-top: 10px;
+    	margin-bottom: 0px;
+		}
+
+		.input-group {
+		  margin-top: 0px; 
+		}
+
+		.meucarrinho {
+	    margin-top: 20px;
+		}
+
+		.meucarrinho a {
+	    display: inline-flex;
+		}
+		i.fa.fa-shopping-cart {
+	    padding: 5px;
+		}
+}
+
