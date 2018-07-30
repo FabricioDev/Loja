@@ -102,7 +102,7 @@
 </div>
 
     <div class="menu navbar navbar-static-top header-logo-center-menu-below oxy-mega-menu text-caps" id="masthead">
-       
+
         <div class="container">
             <div class="nav-container clearfix">
                 <nav class="collapse navbar-collapse main-navbar">
@@ -121,38 +121,38 @@
                                     <li class="menu-item menu-item-object-oxy_mega_columns menu-item-has-children dropdown-submenu dropdown col-md-3"> <strong>Shop Womens</strong>
                                         <ul class="dropdown-menu-left">
                                             <li class="menu-item"> <a href="/shop-womens-category.html">Skirts
-                                                    
+
                                                         <span class="label menu-label label-danger">On Sale!</span>
-                                                    
+
                                                 </a> </li>
                                             <li class="menu-item"> <a href="/shop-womens-category.html">Jeans
-                                                    
+
                                                 </a> </li>
                                             <li class="menu-item"> <a href="/shop-womens-category.html">Tops
-                                                    
+
                                                 </a> </li>
                                             <li class="menu-item"> <a href="/shop-womens-category.html">Bags
-                                                    
+
                                                 </a> </li>
                                         </ul>
                                     </li>
                                     <li class="menu-item menu-item-object-oxy_mega_columns menu-item-has-children dropdown-submenu dropdown col-md-3"> <strong>Features</strong>
                                         <ul class="dropdown-menu-left">
                                             <li class="menu-item"> <a href="/shop-womens-category.html">New In
-                                                    
+
                                                 </a> </li>
                                             <li class="menu-item"> <a href="/shop-womens-category.html">Sale
-                                                    
+
                                                 </a> </li>
                                         </ul>
                                     </li>
                                     <li class="menu-item menu-item-object-oxy_mega_columns menu-item-has-children dropdown-submenu dropdown col-md-3"> <strong>Best Sellers</strong>
                                         <ul class="dropdown-menu-left">
                                             <li class="menu-item"> <a href="/shop-womens-category.html">Top 10
-                                                    
+
                                                 </a> </li>
                                             <li class="menu-item"> <a href="/shop-womens-category.html">Recommended
-                                                    
+
                                                 </a> </li>
                                         </ul>
                                     </li>
@@ -163,40 +163,40 @@
                                     <li class="menu-item menu-item-object-oxy_mega_columns menu-item-has-children dropdown-submenu dropdown col-md-3"> <strong>Shop Mens</strong>
                                         <ul class="dropdown-menu-left">
                                             <li class="menu-item"> <a href="/shop-mens-category.html">Hoodies
-                                                    
+
                                                 </a> </li>
                                             <li class="menu-item"> <a href="/shop-mens-category.html">Shirts
-                                                    
+
                                                 </a> </li>
                                             <li class="menu-item"> <a href="/shop-mens-category.html">Tops
-                                                    
+
                                                 </a> </li>
                                             <li class="menu-item"> <a href="/shop-mens-category.html">Jackets
-                                                    
+
                                                         <span class="label menu-label label-success">Sold Out</span>
-                                                    
+
                                                 </a> </li>
                                         </ul>
                                     </li>
                                     <li class="menu-item menu-item-object-oxy_mega_columns menu-item-has-children dropdown-submenu dropdown col-md-3"> <strong>Features</strong>
                                         <ul class="dropdown-menu-left">
                                             <li class="menu-item"> <a href="/shop-mens-category.html">Premium
-                                                    
+
                                                         <span class="label menu-label label-success">20% Off</span>
-                                                    
+
                                                 </a> </li>
                                             <li class="menu-item"> <a href="/shop-mens-category.html">Casual
-                                                    
+
                                                 </a> </li>
                                         </ul>
                                     </li>
                                     <li class="menu-item menu-item-object-oxy_mega_columns menu-item-has-children dropdown-submenu dropdown col-md-3"> <strong>Best Sellers</strong>
                                         <ul class="dropdown-menu-left">
                                             <li class="menu-item"> <a href="/shop-mens-category.html">Top 5
-                                                    
+
                                                 </a> </li>
                                             <li class="menu-item"> <a href="/shop-mens-category.html">Selected Homme
-                                                    
+
                                                 </a> </li>
                                         </ul>
                                     </li>
@@ -207,38 +207,38 @@
                                     <li class="menu-item menu-item-object-oxy_mega_columns menu-item-has-children dropdown-submenu dropdown col-md-3"> <strong>Shop Kids</strong>
                                         <ul class="dropdown-menu-left">
                                             <li class="menu-item"> <a href="/shop-kids-category.html">Young girls
-                                                    
+
                                                 </a> </li>
                                             <li class="menu-item"> <a href="/shop-kids-category.html">Young Boys
-                                                    
+
                                                 </a> </li>
                                             <li class="menu-item"> <a href="/shop-kids-category.html">Jeans
-                                                    
+
                                                 </a> </li>
                                             <li class="menu-item"> <a href="/shop-kids-category.html">Skirts
-                                                    
+
                                                 </a> </li>
                                         </ul>
                                     </li>
                                     <li class="menu-item menu-item-object-oxy_mega_columns menu-item-has-children dropdown-submenu dropdown col-md-3"> <strong>Features</strong>
                                         <ul class="dropdown-menu-left">
                                             <li class="menu-item"> <a href="/shop-kids-category.html">Basics
-                                                    
+
                                                 </a> </li>
                                             <li class="menu-item"> <a href="/shop-kids-category.html">School
-                                                    
+
                                                         <span class="label menu-label label-primary">New!</span>
-                                                    
+
                                                 </a> </li>
                                         </ul>
                                     </li>
                                     <li class="menu-item menu-item-object-oxy_mega_columns menu-item-has-children dropdown-submenu dropdown col-md-3"> <strong>Best Sellers</strong>
                                         <ul class="dropdown-menu-left">
                                             <li class="menu-item"> <a href="/shop-kids-category.html">On Sale
-                                                    
+
                                                 </a> </li>
                                             <li class="menu-item"> <a href="/shop-kids-category.html">Fashion
-                                                    
+
                                                 </a> </li>
                                         </ul>
                                     </li>
@@ -256,7 +256,7 @@
                             <li class="menu-item dropdown  "> <a href="#">LIMPEZA</a> </li>
                         </ul>
                     </div>
-                    
+
                 </nav>
             </div>
         </div>
@@ -278,7 +278,7 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-   
+
     <!--
   </div><!-- /.container-fluid --><!--
 </nav>-->
