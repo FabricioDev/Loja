@@ -17,21 +17,25 @@
 					<th>Descrição</th>
 					<th>Opções</th>
 				</thead>
-               @foreach ($categories as $cat)
+               @foreach ($categorias as $cat)
 				<tr>
-					<td>{{ $cat->id}}</td>
-					<td>{{ $cat->name}}</td>
-					<td>{{ $cat->description}}</td>
+					<td>{{ $cat->idcategoria}}</td>
+					<td>{{ $cat->nome}}</td>
+					<td>{{ $cat->descricao}}</td>
 					<td>
-						<a href="{{URL::action('CategoriaController@edit',$cat->id)}}"><button class="btn btn-info">Editar</button></a>
-                         <a href="" data-target="#modal-delete-{{$cat->id}}" data-toggle="modal"><button class="btn btn-danger">Excluir</button></a>
+						<a href="{{URL::action('CategoriaController@edit',$cat->idcategoria)}}">
+							<button class="btn btn-info">Editar</button>
+						</a>
+           	<a href="" data-target="#modal-delete-{{$cat->idcategoria}}" data-toggle="modal">
+							<button class="btn btn-danger">Excluir</button>
+						</a>
 					</td>
 				</tr>
 				@include('estoque.categoria.modal')
 				@endforeach
 			</table>
 		</div>
-		{{$categories->render()}}
+		{{$categorias->render()}}
 	</div>
 </div>
 @stop
