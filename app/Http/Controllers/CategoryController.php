@@ -16,7 +16,7 @@ class CategoryController extends Controller
 
   public function index(Request $request)
   {
-    
+
       if($request)
       {
         $query=trim($request->get('searchText'));
@@ -31,42 +31,44 @@ class CategoryController extends Controller
               ]);
       }
   }
-  /*
+
   public function create()
   {
       return view("estoque.categoria.create");
   }
   public function store(CategoriaFormRequest $request)
   {
-      $categoria = new Categoria;
-      $categosria->nome=$request->get('nome');
-      $categosria->descricao=$request->get('descricao');
-      $categosria->condicao=1;
-      $categoria->save();
+      $categories = new Category;
+      $categories->name=$request->get('name');
+      $categories->description=$request->get('description');
+      $categories->condition=1;
+      $categories->save();
       return Redirect::to('estoque/categoria');
   }
+
   public function show($id)
   {
-      return view("estoque.categoria.show", ["categoria"=>Category::findOrFail($id)]);
+      return view("estoque.categoria.show", [
+        "categoria"=>Category::findOrFail($id)]);
   }
   public function edit($id)
   {
     return view("estoque.categoria.edit", [
-      "categoria"=>Category::findOrFail($id)]);
+        "categoria"=>Category::findOrFail($id)]);
   }
   public function update(CategoriaFormRequest $request, $id)
   {
-      $categoria=Category::findOrFail($id);
-      $categoria->nome=$request->get('nome');
-      $categoria->descricao=$request->get('descricao');
-      $categoria->update();
+      $categories=Category::findOrFail($id);
+      $categories->name=$request->get('name');
+      $categories->description=$request->get('description');
+      $categories->update();
       return Redirect::to('estoque/categoria');
   }
   public function destroy($id)
   {
-      $categoria=Category::findOrFail($id);
-      $categoria->condicao='0';
-      $categoria->update();
+      $categories=Category::findOrFail($id);
+      $categories->condition='0';
+      $categories->update();
       return Redirect::to('estoque/categoria');
-  }*/
+  }
 }
