@@ -1,9 +1,9 @@
 <?php
 
-namespace sistemaLaravel\Http\Requests;
+namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use sistemaLaravel\Http\Requests\Request;
+use App\Http\Requests\Request;
 
 class CategoriaFormRequest extends FormRequest
 {
