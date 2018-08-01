@@ -7,5 +7,6 @@ $this->get('carrinho', 'CartController@index')->name('cart');
 $this->get('/', 'StoreController@index')->name('home');
 
 $this->resource('estoque/categoria', 'CategoriaController');
+$this->resource('estoque/produto', 'ProdutoController');
 
 // $this->resource('estoque/categoria', 'CategoryController');

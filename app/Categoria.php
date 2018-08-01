@@ -1,15 +1,15 @@
 <?php
 
-namespace sistemaLaravel;
+namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
 class Categoria extends Model
 {
     protected $table = 'categoria';
-    protected $primaryKey = 'id';
+    protected $primaryKey = 'idcategoria';
 
-    public $timestamps = true;
+    public $timestamps = false;
     protected $fillable = [
 
     'nome',

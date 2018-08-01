@@ -32,7 +32,7 @@ CREATE TABLE `categoria` (
   `descricao` varchar(256) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `condicao` tinyint(1) NOT NULL,
   PRIMARY KEY (`idcategoria`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `categoria`
@@ -40,7 +40,11 @@ CREATE TABLE `categoria` (
 
 /*!40000 ALTER TABLE `categoria` DISABLE KEYS */;
 INSERT INTO `categoria` (`idcategoria`,`nome`,`descricao`,`condicao`) VALUES 
- (1,'Rações','Aqui você encontra as melhores Rações.',1);
+ (1,'Rações','Aqui você encontra as melhores Rações.',1),
+ (2,'Remédios','Remédios',1),
+ (3,'PET SHOP','PET SHOP',1),
+ (4,'UTENSÍLIOS','UTENSÍLIOS',1),
+ (5,'LIMPEZA','LIMPEZA',1);
 /*!40000 ALTER TABLE `categoria` ENABLE KEYS */;
 
 

@@ -22,7 +22,7 @@ class CategoriaController extends Controller
     		->where('nome', 'LIKE', '%'.$query.'%')
     		->where('condicao', '=', '1')
     		->orderBy('idcategoria', 'desc')
-    		->paginate(7);
+    		->paginate(5);
     		return view('estoque.categoria.index', [
     			"categorias"=>$categorias, "searchText"=>$query
     			]);
