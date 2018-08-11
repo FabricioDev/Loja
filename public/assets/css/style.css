@@ -129,6 +129,13 @@ input.form-control.inputBuscaProduto {
 		color: #625d5e;
 }
 
+#footer
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
 #footer, #footer h3, #footer strong, #footer a
 {
 	background: #F1F1F1;

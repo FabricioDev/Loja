@@ -17,7 +17,7 @@
         <ul class="nav navbar-nav pull-right">
            <!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>-->
            <li>
-             <a class="nav-link" href="#">Minha conta</a>
+             <a class="nav-link" href="{{route('user.profile')}}">Minha conta</a>
            </li>
            <li>
              <a class="nav-link" href="#">Termos</a>
@@ -31,33 +31,6 @@
          </ul>
        </div>
      </div>
-
-
-     <!--
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon">Menu</span>
-  </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <div class="col">
-        Bem vindo a loja do seu Pet!
-      </div>
-    <ul class="navbar-nav mr-auto pull-right">
-
-      <!--
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-    </ul>-->
 </nav>
 <div class="container">
   <div class="row">
@@ -80,13 +53,13 @@
         <li>
           <a href="{{route('cart')}}">
             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-            <span class="display-none">Meu Carrinho</span>
+            <span class="display-none">Meu Carrinho&nbsp;</span>
             <span class="badge">0</span>
           </a>
         </li>
         <li class="dropdown display-none">
           <a href="#" class="dropdown-toggle display-none" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              Fabrício Damasceno<span class="caret"></span>
+              Nome do Usuário<span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
             <li><a href="{{route('user.profile')}}">Perfil</a></li>
