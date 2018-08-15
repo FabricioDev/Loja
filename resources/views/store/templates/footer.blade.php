@@ -62,7 +62,7 @@
                             <img src="{{url('assets/images/paypal.png')}}" alt="" class="Pagamentos">
 
                         </div>
-                        <div class="sidebar-widget widget_social">
+                       <!-- <div class="sidebar-widget widget_social">
                           <!--
                             <ul class="unstyled inline social-icons social-simple social-normal">
                                 <li> <a data-iconcolor="#3b9999" href="#"><i class="fa fa-cc-amex"></i></a> </li>
@@ -71,8 +71,7 @@
                                 <li> <a data-iconcolor="#3b9999" href="#"><i class="fa fa-cc-mastercard"></i></a> </li>
                                 <li> <a data-iconcolor="#3b9999" href="#"><i class="fa fa-credit-card"></i></a> </li>
                             </ul>
-                          -->
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -82,12 +81,12 @@
                 <div class="row element-top-10 element-bottom-10 footer-columns-2">
                     <div class="col-sm-6">
                         <div class="sidebar-widget widget_text">
-                            <div class="textwidget"> Copyright © 2018 - Plazza Pet </div>
+                            <div class="textwidget"> Copyright © <?=date('Y')?> - Plazza Pet </div>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="sidebar-widget widget_text">
-                            <div class="textwidget"> <a href="shop-checkout.html">Carrinho</a> | <a href="shop-terms.html">Termos</a> | <a href="shop-faq.html">FAQ</a> </div>
+                            <div class="textwidget"> <a href="{{route('cart')}}">Carrinho</a> | <a href="#">Termos</a> | <a href="#">FAQ</a> </div>
                         </div>
                     </div>
                 </div>
