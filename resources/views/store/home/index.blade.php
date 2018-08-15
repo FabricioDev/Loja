@@ -52,7 +52,8 @@
             </div>
             <div class="columns-4">
               <div class="row">
-                <ul class="products">                  
+                <ul class="products"> 
+                   @for( $i = 0; $i < 4; $i++ )                
                   <li class="product col-md-3">
                     <a href="#" class="btn btn-buy">
                       <span class="onsale">- 30%</span>
@@ -64,62 +65,12 @@
                           <img alt="skirt4-1" data-src="holder.js/800x800?random=yes&text=Essa é uma outra imagem do Produto">
                         </div>
                         <div class="product-image-overlay">
-                          <h4>Produto 01</h4>
+                          <h4>Produto <?=rand(1, 10);?></h4>
                         </div>
                       </div>
                     </a>
                   </li>
-
-                  <li class="product col-md-3">
-                    <a href="#" class="btn btn-buy">
-                      <span class="onsale">- 30%</span>
-                      <div class="product-image">
-                        <div class="product-image-front">
-                          <img alt="skirt4-1" height="893" data-src="holder.js/800x800?random=yes&text=Aqui vai a imagem do produto" width="700">
-                        </div>
-                        <div class="product-image-back">
-                          <img alt="skirt4-1" data-src="holder.js/800x800?random=yes&text=Essa é uma outra imagem do Produto">
-                        </div>
-                        <div class="product-image-overlay">
-                          <h4>Produto 02</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-
-                  <li class="product col-md-3">
-                    <a href="#" class="btn btn-buy">
-                      <span class="onsale">- 30%</span>
-                      <div class="product-image">
-                        <div class="product-image-front">
-                          <img alt="skirt4-1" height="893" data-src="holder.js/800x800?random=yes&text=Aqui vai a imagem do produto" width="700">
-                        </div>
-                        <div class="product-image-back">
-                          <img alt="skirt4-1" data-src="holder.js/800x800?random=yes&text=Essa é uma outra imagem do Produto">
-                        </div>
-                        <div class="product-image-overlay">
-                          <h4>Produto 03</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-
-                  <li class="product col-md-3">
-                    <a href="#" class="btn btn-buy">
-                      <span class="onsale">- 30%</span>
-                      <div class="product-image">
-                        <div class="product-image-front">
-                          <img alt="skirt4-1" height="893" data-src="holder.js/800x800?random=yes&text=Aqui vai a imagem do produto" width="700">
-                        </div>
-                        <div class="product-image-back">
-                          <img alt="skirt4-1" data-src="holder.js/800x800?random=yes&text=Essa é uma outra imagem do Produto">
-                        </div>
-                        <div class="product-image-overlay">
-                          <h4>Produto 04</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
+                  @endfor
                   
                 </ul>
               </div>
@@ -164,14 +115,20 @@
                             <div class="woocommerce columns-5">
                                 <div class="row">
                                     <ul class="products">
-                                        <li class="product col-md-2-4"> <a href="#"><span class="onsale">- 10%</span>
+                                        @for( $i = 0; $i < 5; $i++ )
+                                        <li class="product col-md-2-4"> 
+                                          <a href="#">
+                                            <span class="onsale">- <?=rand(1, 5);?>0%</span>
+                                          </a>
 
                                         <div class="product-image">
                                             <div class="product-image-front">
                                                 <img alt="skirt1-1" height="893" data-src="holder.js/800x800?random=yes&text=Foto Produto Frente" width="700">
                                             </div>
 
-                                            <div class="product-image-back"><img alt="skirt1-2" data-src="holder.js/800x800?random=yes&text=Foto Produto 2"></div>
+                                            <div class="product-image-back">
+                                              <img alt="skirt1-2" data-src="holder.js/800x800?random=yes&text=Foto Produto 2">
+                                            </div>
 
                                             <div class="product-image-overlay">
                                                 <h4>Detalhe do Produto</h4>
@@ -180,12 +137,16 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
                                             <div class="product-info">
-                                                <h3 class="product-title"> <a href="#">Produto 01</a> </h3> <span class="product-categories">
-                                            <a href="#" rel="tag">ração</a>,
-                                            <a href="#" rel="tag">coleira</a>
-                                        </span>
+                                                <h3 class="product-title"> 
+                                                  <a href="#">
+                                                    Produto <?=rand(1, 10);?>
+                                                  </a> 
+                                                </h3> 
+                                                <span class="product-categories">
+                                                  <a href="#" rel="tag">ração</a>,
+                                                  <a href="#" rel="tag">coleira</a>
+                                                </span>
                                                 <h3 class="price"> <del>
                                                 <span class="amount">R&#36; 30,00</span>
                                             </del> <ins>
@@ -195,99 +156,7 @@
                                                 <a class="add-to-cart-button" href="#" rel="nofollow"> <i class="icon-bag"></i> </a>
                                             </div>
                                         </li>
-                                        <li class="product col-md-2-4">
-                                            <a href="#"> <span class="onsale">- 20%</span>
-                                                <div class="product-image">
-                                                    <div class="product-image-front"> <img alt="bag1-1" height="893" data-src="holder.js/800x800?random=yes&text=Foto Produto Frente" width="700"> </div>
-                                                    <div class="product-image-back"> <img alt="bag1-2" src="holder.js/800x800?random=yes&text=Foto Produto 2"> </div>
-                                                    <div class="product-image-overlay">
-                                                        <h4>Detalhe do Produto</h4>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <div class="product-info">
-                                                <h3 class="product-title"> <a href="#">Produto 02</a> </h3> <span class="product-categories">
-                                                  <a href="#" rel="tag">ração</a>,
-                                                  <a href="#" rel="tag">coleira</a>
-                                        </span>
-                                                <h3 class="price"> <del>
-                                                <span class="amount">R&#36; 29,99
-                                                </span>
-                                            </del> <ins>
-                                                <span class="amount">R&#36; 19,99</span>
-                                            </ins> </h3>
-                                                <a class="add-to-cart-button" href="#" rel="nofollow"> <i class="icon-bag"></i> </a>
-                                            </div>
-                                        </li>
-                                        <li class="product col-md-2-4">
-                                            <a href="#"> <span class="onsale">- 25%</span>
-                                                <div class="product-image">
-                                                    <div class="product-image-front"> <img alt="bag3-1" height="893" data-src="holder.js/800x800?random=yes&text=Foto Produto Frente" width="700"> </div>
-                                                    <div class="product-image-back"> <img alt="bag3-2" src="holder.js/800x800?random=yes&text=Foto Produto 2"> </div>
-                                                    <div class="product-image-overlay">
-                                                        <h4>Detalhe do Produto</h4>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <div class="product-info">
-                                                <h3 class="product-title"> <a href="#">Produto 03</a> </h3> <span class="product-categories">
-                                            <a href="#" rel="tag">Coleira</a>
-                                        </span>
-                                                <h3 class="price"> <del>
-                                                <span class="amount">R&#36; 15,00</span>
-                                            </del> <ins>
-                                                <span class="amount">R&#36; 12,00</span>
-                                            </ins> </h3>
-                                                <a class="add-to-cart-button" href="#" rel="nofollow"> <i class="icon-bag"></i> </a>
-                                            </div>
-                                        </li>
-                                        <li class="product col-md-2-4">
-                                            <a href="#"> <span class="onsale">- 50%</span>
-                                                <div class="product-image">
-                                                    <div class="product-image-front"> <img alt="bag4-1" height="893" data-src="holder.js/800x800?random=yes&text=Foto Produto Frente" width="700"> </div>
-                                                    <div class="product-image-back"> <img alt="bag4-2" data-src="holder.js/800x800?random=yes&text=Foto Produto 2"> </div>
-                                                    <div class="product-image-overlay">
-                                                        <h4>Detalhe do Produto</h4>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <div class="product-info">
-                                                <h3 class="product-title"> <a href="#">Produto 04</a> </h3> <span class="product-categories">
-                                            <a href="#" rel="tag">Ração</a>
-                                        </span>
-                                                <h3 class="price"> <ins>
-                                                <span class="amount">R&#36; 12,00</span>
-                                            </ins> </h3>
-                                                <a class="add-to-cart-button" href="#" rel="nofollow"> <i class="icon-bag"></i> </a>
-                                            </div>
-                                        </li>
-
-                                        <li class="product col-md-2-4"> <a href="#"><span class="onsale">- 30%</span>
-
-                                    <div class="product-image">
-                                        <div class="product-image-front">
-                                            <img alt="dress2-1" height="893" data-src="holder.js/800x800?random=yes&text=Foto Produto Frente" width="700">
-                                        </div>
-
-                                        <div class="product-image-back">
-                                            <img alt="dress1-1" data-src="holder.js/800x800?random=yes&text=Foto Produto 2">
-                                        </div>
-
-                                        <div class="product-image-overlay">
-                                          <h4>Detalhe do Produto</h4>
-                                        </div>
-                                    </div></a>
-                                            <div class="product-info">
-                                                <h3 class="product-title"> <a href="#">Produto 05</a> </h3> <span class="product-categories">
-                                            <a href="#" rel="tag">Coleira</a>,
-                                            <a href="#" rel="tag">Ração</a>
-                                        </span>
-                                                <h3 class="price"> <ins>
-                                                <span class="amount">R&#36; 20,00</span>
-                                            </ins> </h3>
-                                                <a class="add-to-cart-button" href="#" rel="nofollow"> <i class="icon-bag"></i> </a>
-                                            </div>
-                                        </li>
+                                        @endfor
                                     </ul>
                                 </div>
                             </div>
@@ -298,27 +167,15 @@
             <section class="section">
                 <div class="container">
                     <div class="row">
+                        @for( $i = 0; $i < 3; $i++ )
                         <div class="col-md-4 text-center">
                             <div class="figure element-top-20 element-bottom-20 image-effect-zoom-in os-animation" data-os-animation="fadeIn" data-os-animation-delay="0s">
                                 <a class="figure-image" href="#" target="_self">
-                                  <img alt="" data-src="holder.js/800x800?random=yes&text=Produto Destaque 01">
+                                  <img alt="" data-src="holder.js/800x800?random=yes&text=Produto Destaque">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-4 text-center">
-                            <div class="figure element-top-20 element-bottom-20 image-effect-zoom-in os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
-                                <a class="figure-image" href="#" target="_self">
-                                  <img alt="banner-small-2" data-src="holder.js/800x800?random=yes&text=Produto Destaque 02">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <div class="figure element-top-20 element-bottom-20 image-effect-zoom-in os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s">
-                                <a class="figure-image" href="#" target="_self">
-                                  <img alt="banner-small-3" data-src="holder.js/800x800?random=yes&text=Produto Destaque 03">
-                                </a>
-                            </div>
-                        </div>
+                        @endfor
                     </div>
                 </div>
             </section>

@@ -159,6 +159,14 @@ ul
 	box-shadow: none!important;
 }
 
+
+@media (min-width: 992px){
+	.display-none{
+		display: inline!important;
+	}
+}
+
+
 @media (min-width: 576px)  {
 		/* For mobile phones: */
 		img.logo{
@@ -189,11 +197,4 @@ ul
 	    padding: 5px;
 		}
 }
-
-@media (min-width: 992px){
-	.display-none{
-		display: inline!important;
-	}
-}
-
 
