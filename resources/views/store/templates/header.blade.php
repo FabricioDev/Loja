@@ -1,3 +1,4 @@
+<!--Início NavTopoVermelho -->
 <nav class="navbar navbar-default NavTop">
   <div class="container">
     <h4 class="BoasVindas">Bem-vindo a loja do seu Pet!</h4>
@@ -32,6 +33,8 @@
        </div>
      </div>
 </nav>
+<!--Fim NavTopoVermelho -->
+<!-- Início linha meio com Logo e Buscar -->
 <div class="container">
   <div class="row">
     <div class="col-md-3 col-sm-3">
@@ -73,6 +76,7 @@
     </div>
   </div>
 </div>
+<!-- Fim linha meio com Logo e Buscar -->
 
     <div class="menu navbar navbar-static-top header-logo-center-menu-below oxy-mega-menu text-caps" id="masthead">
 
@@ -89,9 +93,10 @@
                                     <li class="menu-item"> <a href="/shop-fullwidth.html">Full Width</a> </li>
                                 </ul>-->
                             </li>
-                            <li class="menu-item dropdown  menu-item-object-oxy_mega_menu"> <a href="/shop-womens-category.html">RAÇÕES</a>
-                                <ul class="dropdown-menu dropdown-menu-left row" style=&#39;background-image: url(assets/images/shop/womens_menu.jpg); background-size: cover;&#39;>
-                                    <li class="menu-item menu-item-object-oxy_mega_columns menu-item-has-children dropdown-submenu dropdown col-md-3"> <strong>Shop Womens</strong>
+                            <li class="menu-item dropdown  menu-item-object-oxy_mega_menu"> <a href="#">RAÇÕES</a>
+                                <!--<ul class="dropdown-menu dropdown-menu-left row" style=&#39;background-image: url(assets/images/shop/womens_menu.jpg); background-size: cover;&#39;>
+                                    <li class="menu-item menu-item-object-oxy_mega_columns menu-item-has-children dropdown-submenu dropdown col-md-3"> 
+                                      <strong>Shop Womens</strong>
                                         <ul class="dropdown-menu-left">
                                             <li class="menu-item"> <a href="/shop-womens-category.html">Skirts
 
@@ -109,7 +114,8 @@
                                                 </a> </li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item menu-item-object-oxy_mega_columns menu-item-has-children dropdown-submenu dropdown col-md-3"> <strong>Features</strong>
+                                    <li class="menu-item menu-item-object-oxy_mega_columns menu-item-has-children dropdown-submenu dropdown col-md-3"> 
+                                      <strong>Features</strong>
                                         <ul class="dropdown-menu-left">
                                             <li class="menu-item"> <a href="/shop-womens-category.html">New In
 
@@ -129,10 +135,11 @@
                                                 </a> </li>
                                         </ul>
                                     </li>
-                                </ul>
+                                </ul>-->
                             </li>
-                            <li class="menu-item dropdown  menu-item-object-oxy_mega_menu"> <a href="/shop-mens-category.html">REMÉDIOS</a>
-                                <ul class="dropdown-menu dropdown-menu-left row" style=&#39;background-image: url(assets/images/shop/mans_menu.jpg); background-size: cover;&#39;>
+                            <li class="menu-item dropdown  menu-item-object-oxy_mega_menu"> 
+                              <a href="#">REMÉDIOS</a>
+                                <!--<ul class="dropdown-menu dropdown-menu-left row" style=&#39;background-image: url(assets/images/shop/mans_menu.jpg); background-size: cover;&#39;>
                                     <li class="menu-item menu-item-object-oxy_mega_columns menu-item-has-children dropdown-submenu dropdown col-md-3"> <strong>Shop Mens</strong>
                                         <ul class="dropdown-menu-left">
                                             <li class="menu-item"> <a href="/shop-mens-category.html">Hoodies
@@ -173,10 +180,11 @@
                                                 </a> </li>
                                         </ul>
                                     </li>
-                                </ul>
+                                </ul>-->
                             </li>
-                            <li class="menu-item dropdown  menu-item-object-oxy_mega_menu"> <a href="/shop-kids-category.html">PET SHOP</a>
-                                <ul class="dropdown-menu dropdown-menu-left row" style=&#39;background-image: url(assets/images/shop/kids_menu.jpg); background-size: cover;&#39;>
+                            <li class="menu-item dropdown  menu-item-object-oxy_mega_menu"> 
+                              <a href="#">PET SHOP</a>
+                                <!--<ul class="dropdown-menu dropdown-menu-left row" style=&#39;background-image: url(assets/images/shop/kids_menu.jpg); background-size: cover;&#39;>
                                     <li class="menu-item menu-item-object-oxy_mega_columns menu-item-has-children dropdown-submenu dropdown col-md-3"> <strong>Shop Kids</strong>
                                         <ul class="dropdown-menu-left">
                                             <li class="menu-item"> <a href="/shop-kids-category.html">Young girls
@@ -215,16 +223,17 @@
                                                 </a> </li>
                                         </ul>
                                     </li>
-                                </ul>
+                                </ul>-->
                             </li>
-                            <li class="menu-item dropdown  "> <a class="dropdown-toggle" data-toggle="dropdown" href="/#">UTENSÍLIOS</a>
-                                <ul class="dropdown-menu dropdown-menu-left ">
+                            <li class="menu-item dropdown  "> 
+                              <a class="dropdown-toggle" data-toggle="dropdown" href="#">UTENSÍLIOS</a>
+                                <!--<ul class="dropdown-menu dropdown-menu-left ">
                                     <li class="menu-item"> <a href="/shop-mens-category.html">Simple Category</a> </li>
                                     <li class="menu-item"> <a href="/shop-video-category.html">Video Category</a> </li>
                                     <li class="menu-item"> <a href="/shop-simple-product.html">Single Product</a> </li>
                                     <li class="menu-item"> <a href="/shop-cart.html">Cart</a> </li>
                                     <li class="menu-item"> <a href="/shop-checkout.html">Checkout</a> </li>
-                                </ul>
+                                </ul>-->
                             </li>
                             <li class="menu-item dropdown  "> <a href="#">LIMPEZA</a> </li>
                         </ul>
