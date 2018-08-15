@@ -24,13 +24,10 @@
   </head>
   <body class="pace-on pace-dot">
 
-
       @include('store.templates.header')
       <div class="container">
           @yield('content')
       </div>
-
-
 
       <!-- JS Dinâmicos -->
       @stack('scripts')

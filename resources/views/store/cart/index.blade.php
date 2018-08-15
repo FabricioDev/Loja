@@ -18,7 +18,7 @@
         <tr>
             <td>
                 <div class="">
-                    <img src="{{url('assets/images/temp/Imagem01.jpg')}}" alt="" class="product-item-img-cart">
+                    <img data-src="holder.js/80x80?random=yes&text=Aqui vai a imagem do produto" alt="" class="product-item-img-cart">
                     <p class="cart-name-item">Meu Produto</p>
                 </div>
             </td>
@@ -39,7 +39,7 @@
 </div>
 
 <div class="cart-finish">
-      <a href="" class="btn btn-finish">Finalizar Compra</a>
+      <a href="" class="btn btn-finish">Finalizar Compras</a>
 </div>
 
 
