@@ -93,11 +93,11 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="produto"><i class="fa fa-circle-o"></i> Produtos</a></li>
-                <li><a href="categoria"><i class="fa fa-circle-o"></i> Categorias</a></li>
+                <li><a href="{{url('estoque/produto')}}"><i class="fa fa-circle-o"></i> Produtos</a></li>
+                <li><a href="{{url('estoque/categoria')}}"><i class="fa fa-circle-o"></i> Categorias</a></li>
               </ul>
             </li>
-
+<!--
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-th"></i>
@@ -142,7 +142,7 @@
                 <i class="fa fa-info-circle"></i> <span>Sobre...</span>
                 <small class="label pull-right bg-yellow">IT</small>
               </a>
-            </li>
+            </li>-->
 
           </ul>
         </section>
@@ -195,7 +195,7 @@
         <div class="pull-right hidden-xs">
           <b>By HF Desenvolvimento
         </div>
-        <strong>Copyright &copy; 2015-2020 <a href="www.sitedodesenvolvedor.com.br">site</a>.</strong> Todos os direitos reservados.
+        <strong>Copyright &copy; 2015-<?=date('Y');?> <a href="www.sitedodesenvolvedor.com.br">site</a>.</strong> Todos os direitos reservados.
       </footer>
 
 
