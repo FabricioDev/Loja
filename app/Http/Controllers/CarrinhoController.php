@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Product;
+use App\Models\Produto;
 use App\Models\Carrinho;
 use Session;
 
@@ -14,31 +14,40 @@ class CarrinhoController extends Controller
         
         $title = "Meu Carrinho - Plazza Pet";
 
-        /*
-        $cart = Session::get('cart');
-        dd($cart->getItems());
-        */
+        $carrinho = Session::get('carrinho');
+        $produtos = $carrinho->getItems();
+        
 
-        return view('store.cart.index', compact('title'));
+        return view('store.cart.index', compact('title', 'produtos'));
     }
 
-    public function add($id)
+    public function add(Request $request, $id)
     {
 
-        return "Adicionando o produto {$id} no carrinho";
-        /*
-        $product = Product::find($id);
-
-        if(!$product)
+        $produto = Produto::find($id);
+        if(!$produto)
             return redirect()->route('home');
 
-        $cart = new Cart;
-        $cart->add($product);
+        $carrinho = new Carrinho;
+        $carrinho->add($produto);
 
-        $request->session()->put('cart', $cart);
+        $request->session()->put('carrinho', $carrinho);
 
         return redirect()->route('cart');
+        
+    }
 
-        */
+    public function decrement(Request $request, $id)
+    {
+        $produto = Produto::find($id);
+        if(!$produto)
+            return redirect()->route('home');
+
+        $carrinho = new Carrinho;
+        $carrinho->decrement($produto);
+
+        $request->session()->put('carrinho', $carrinho);
+
+        return redirect()->route('cart');
     }
 }

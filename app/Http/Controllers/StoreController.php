@@ -3,10 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-//use App\Models\Product;
 use App\Http\Requests\ProdutoFormRequest;
 use App\Http\Requests\CategoriaFormRequest;
-
 use App\Models\Categoria;
 use App\Models\Produto;
 

@@ -14,12 +14,13 @@
         </tr>
     </thead>
     <tbody>
-        @for($i = 1; $i <= 10; $i++)
+        @forelse($produtos as $produto)
+        
         <tr>
             <td>
                 <div class="">
                     <img data-src="holder.js/80x80?random=yes&text=Aqui vai a imagem do produto" alt="" class="product-item-img-cart">
-                    <p class="cart-name-item">Meu Produto</p>
+                    <p class="cart-name-item">{{ $produto['item']->nome }}</p>
                 </div>
             </td>
             <td>R$ 30,00</td>
@@ -30,7 +31,11 @@
             </td>
             <td>R$ 60,00</td>
         </tr>
-        @endfor
+        @empty
+        <tr>
+            <td colspan="20">Carrinho Vazio!</td>
+        </tr>
+        @endforelse
     </tbody>
 </table>
 
