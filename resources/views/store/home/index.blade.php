@@ -17,12 +17,12 @@
           <div class="col-md-3">
             <div class="figure element-top-30 element-bottom-0 image-effect-scroll-left os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
               <a class="figure-image" href="#" target="_self">
-                <img alt="kids-sales" src="holder.js/800x800?random=yes&text=Produto em Destaque 2">
+                <img alt="kids-sales" src="holder.js/350x230?random=yes&text=Produto em Destaque 2">
               </a>
             </div>
             <div class="figure element-top-30 element-bottom-20 image-effect-scroll-left os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s">
               <a class="figure-image" href="#" target="_self">
-                <img alt="mans-sales" src="holder.js/800x800?random=yes&text=Produto em Destaque 3">
+                <img alt="mans-sales" src="holder.js/350x230?random=yes&text=Produto em Destaque 3">
               </a>
             </div>
           </div>
@@ -125,7 +125,7 @@
 
                                         <div class="product-image">
                                             <div class="product-image-front">
-                                                <img alt="skirt1-1" height="893" data-src="holder.js/800x800?random=yes&text=Foto Produto Frente" width="700">
+                                                <img alt="skirt1-1" height="893" data-src="holder.js/500x300?random=yes&text=Foto Produto Frente" width="700">
                                             </div>
 
                                             <div class="product-image-back">
@@ -173,7 +173,7 @@
                         <div class="col-md-4 text-center">
                             <div class="figure element-top-20 element-bottom-20 image-effect-zoom-in os-animation" data-os-animation="fadeIn" data-os-animation-delay="0s">
                                 <a class="figure-image" href="#" target="_self">
-                                  <img alt="" data-src="holder.js/800x800?random=yes&text=Produto Destaque">
+                                  <img alt="" data-src="holder.js/800x300?random=yes&text=Produto Destaque">
                                 </a>
                             </div>
                         </div>
