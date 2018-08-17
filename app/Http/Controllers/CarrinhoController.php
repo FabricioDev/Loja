@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Product;
-use App\Models\Cart;
+use App\Models\Carrinho;
 use Session;
 
-class CartController extends Controller
+class CarrinhoController extends Controller
 {
     public function index()
     {
@@ -22,8 +22,10 @@ class CartController extends Controller
         return view('store.cart.index', compact('title'));
     }
 
-    public function add(Request $request, $id)
+    public function add($id)
     {
+
+        return "Adicionando o produto {$id} no carrinho";
         /*
         $product = Product::find($id);
 

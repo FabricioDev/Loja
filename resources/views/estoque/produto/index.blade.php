@@ -17,7 +17,9 @@
 					<th>Código</th>
 					<th>Categoria</th>
 					<th>Estoque</th>
+					<th>Preço</th>
 					<th>Estado</th>
+					<th>Imagem Principal</th>
 					<th>Imagem</th>					
 					<th>Opções</th>
 				</thead>
@@ -28,9 +30,16 @@
 					<td>{{ $prod->codigo}}</td>
 					<td>{{ $prod->categoria}}</td>
 					<td>{{ $prod->estoque}}</td>
+					<td>{{ $prod->preco}}</td>
 					<td>{{ $prod->estado}}</td>
 					<td> 
 						<img src="{{asset('imagens/produtos/'.$prod->imagem) }}" alt="{{ $prod->nome}}" 
+						width="100px" height="100px"
+						class="img-thumbnail">
+					</td>
+
+					<td> 
+						<img src="{{asset('imagens/produtos/'.$prod->imagem_sec) }}" alt="{{ $prod->nome}}" 
 						width="100px" height="100px"
 						class="img-thumbnail">
 					</td>

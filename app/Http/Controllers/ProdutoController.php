@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Produto;
+use App\Models\Produto;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Input;
 use App\Http\Requests\ProdutoFormRequest;
@@ -24,7 +24,7 @@ class ProdutoController extends Controller
     			'c.idcategoria')
     		->select('p.idproduto', 'p.nome', 'p.codigo',
     		 'p.estoque', 'c.nome as categoria', 'p.descricao',
-    		 'p.imagem', 'p.estado')
+             'p.preco', 'p.imagem', 'p.imagem_sec', 'p.estado')
     		->where('p.nome', 'LIKE', '%'.$query.'%')
     		->where('estado', '=', 'Ativo')
     		->orderBy('idproduto', 'desc')
@@ -51,6 +51,7 @@ class ProdutoController extends Controller
     	$produto->nome=$request->get('nome');
     	$produto->estoque=$request->get('estoque');
     	$produto->descricao=$request->get('descricao');
+        $produto->preco=$request->get('preco');
     	$produto->estado='Ativo';
 
     	if(Input::hasFile('imagem')){
@@ -59,6 +60,13 @@ class ProdutoController extends Controller
     			$file->getClientOriginalName());
     		$produto->imagem=$file->getClientOriginalName();
     	}
+
+        if(Input::hasFile('imagem_sec')){
+            $file=Input::file('imagem_sec');
+            $file->move(public_path().'/imagens/produtos/',
+                $file->getClientOriginalName());
+            $produto->imagem_sec=$file->getClientOriginalName();
+        }
 
     	$produto->save();
     	return Redirect::to('estoque/produto');
@@ -85,6 +93,9 @@ class ProdutoController extends Controller
     	$produto->idcategoria=$request->get('idcategoria');
     	$produto->codigo=$request->get('codigo');
     	$produto->nome=$request->get('nome');
+        $produto->estoque=$request->get('estoque');
+        $produto->descricao=$request->get('descricao');
+        $produto->preco=$request->get('preco');
 
 
     	if(Input::hasFile('imagem')){
@@ -93,6 +104,13 @@ class ProdutoController extends Controller
     			$file->getClientOriginalName());
     		$produto->imagem=$file->getClientOriginalName();
     	}
+
+        if(Input::hasFile('imagem_sec')){
+            $file=Input::file('imagem_sec');
+            $file->move(public_path().'/imagens/produtos/',
+                $file->getClientOriginalName());
+            $produto->imagem_sec=$file->getClientOriginalName();
+        }
 
     	$produto->update();
     	return Redirect::to('estoque/produto');

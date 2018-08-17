@@ -86,6 +86,9 @@
                     <div class="menu-container">
                         <ul class="nav navbar-nav" id="menu-main">
                             <li class="menu-item dropdown active "> <a href="{{route('home')}}">Home</a>
+                              @foreach($categorias as $categoria)
+                              <li class="menu-item dropdown  menu-item-object-oxy_mega_menu"> <a href="#">{{$categoria->nome}}</a>
+                              @endforeach
                                 <!--<ul class="dropdown-menu dropdown-menu-left ">
                                     <li class="menu-item"> <a href="/shop-flexslider.html">Flexslider</a> </li>
                                     <li class="menu-item"> <a href="/shop-right-sidebar.html">Right Sidebar</a> </li>
@@ -93,6 +96,8 @@
                                     <li class="menu-item"> <a href="/shop-fullwidth.html">Full Width</a> </li>
                                 </ul>-->
                             </li>
+
+                            <!--
                             <li class="menu-item dropdown  menu-item-object-oxy_mega_menu"> <a href="#">RAÇÕES</a>
                                 <!--<ul class="dropdown-menu dropdown-menu-left row" style=&#39;background-image: url(assets/images/shop/womens_menu.jpg); background-size: cover;&#39;>
                                     <li class="menu-item menu-item-object-oxy_mega_columns menu-item-has-children dropdown-submenu dropdown col-md-3"> 
@@ -136,6 +141,7 @@
                                         </ul>
                                     </li>
                                 </ul>-->
+                                <!--
                             </li>
                             <li class="menu-item dropdown  menu-item-object-oxy_mega_menu"> 
                               <a href="#">REMÉDIOS</a>
@@ -181,6 +187,7 @@
                                         </ul>
                                     </li>
                                 </ul>-->
+                                <!--
                             </li>
                             <li class="menu-item dropdown  menu-item-object-oxy_mega_menu"> 
                               <a href="#">PET SHOP</a>
@@ -224,6 +231,7 @@
                                         </ul>
                                     </li>
                                 </ul>-->
+                                <!--
                             </li>
                             <li class="menu-item dropdown  "> 
                               <a class="dropdown-toggle" data-toggle="dropdown" href="#">UTENSÍLIOS</a>
@@ -234,8 +242,9 @@
                                     <li class="menu-item"> <a href="/shop-cart.html">Cart</a> </li>
                                     <li class="menu-item"> <a href="/shop-checkout.html">Checkout</a> </li>
                                 </ul>-->
+                                <!--
                             </li>
-                            <li class="menu-item dropdown  "> <a href="#">LIMPEZA</a> </li>
+                            <li class="menu-item dropdown  "> <a href="#">LIMPEZA</a> </li>-->
                         </ul>
                     </div>
 

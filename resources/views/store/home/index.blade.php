@@ -53,23 +53,25 @@
             <div class="columns-4">
               <div class="row">
                 <ul class="products"> 
-                   @for( $i = 0; $i < 4; $i++ )                
+                   @for( $i = 0; $i < 4; $i++ )  
+                   @foreach($produtos as $produto)            
                   <li class="product col-md-3">
-                    <a href="#" class="btn btn-buy">
+                    <a href="{{route('add.cart', $produto->idproduto)}}" class="btn btn-buy">
                       <span class="onsale">- 30%</span>
                       <div class="product-image">
                         <div class="product-image-front">
-                          <img alt="skirt4-1" height="893" data-src="holder.js/800x800?random=yes&text=Aqui vai a imagem do produto" width="700">
+                          <img alt="{{$produto->nome}}" alt="{{$produto->nome}}" height="893" src="{{asset('imagens/produtos/'.$produto->imagem) }}"> width="700">
                         </div>
                         <div class="product-image-back">
-                          <img alt="skirt4-1" data-src="holder.js/800x800?random=yes&text=Essa é uma outra imagem do Produto">
+                          <img alt="{{$produto->nome}}" title="{{$produto->nome}}" src="{{asset('imagens/produtos/'.$produto->imagem_sec) }}">
                         </div>
                         <div class="product-image-overlay">
-                          <h4>Produto <?=rand(1, 10);?></h4>
+                          <h4>{{$produto->nome}}</h4>
                         </div>
                       </div>
                     </a>
                   </li>
+                  @endforeach
                   @endfor
                   
                 </ul>

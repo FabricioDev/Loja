@@ -29,7 +29,9 @@ class ProdutoFormRequest extends FormRequest
             'nome'=>'required|max:50',
             'estoque'=>'required|numeric',
             'descricao'=>'required|max:512',
+            'preco'=>'required|numeric',
             'imagem'=>'mimes:jpeg,bmp,png',
+            'imagem_sec'=>'mimes:jpeg,bmp,png',
 
 
         ];

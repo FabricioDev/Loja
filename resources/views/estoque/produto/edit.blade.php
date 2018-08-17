@@ -75,10 +75,18 @@
             		
             	</div>
 
+                  <div class="col-lg-6 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                        <label for="preco">Preço</label>
+                        <input type="text" name="preco" required value="{{$produto->preco}}" class="form-control" placeholder="Preço...">
+                        </div>      
+                        
+                  </div>
+
             	<div class="col-lg-6 col-sm-6 col-xs-12">
             		 <div class="form-group">
-            	<label for="imagem">Imagem</label>
-            	<input type="file" name="imagem" 
+            	<label for="imagem1">Imagem 1</label>
+            	<input type="file" name="imagem1" 
             	class="form-control">
 	            	@if(($produto->imagem)!="")
 	            		<img src="{{asset('imagens/produtos/'.$produto->imagem)}}" width="200px">
@@ -86,6 +94,19 @@
             		</div>
             		
             	</div>
+
+                  <div class="col-lg-6 col-sm-6 col-xs-12">
+                         <div class="form-group">
+                  <label for="imagem_sec">Imagem 2</label>
+                  <input type="file" name="imagem_sec" 
+                  class="form-control">
+                        @if(($produto->imagem_sec)!="")
+                              <img src="{{asset('imagens/produtos/'.$produto->imagem_sec)}}" width="200px">
+                        @endif
+                        </div>
+                        
+                  </div>
+                  
 
             </div>
 
